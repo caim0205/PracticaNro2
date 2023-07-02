@@ -64,9 +64,7 @@ public class FrmTelefono extends javax.swing.JDialog {
                     modelo.setLista(ep.buscarDisplayLineal(buscar));
                 }
                 break;
-
             default:
-                throw new AssertionError();
 
         }
         tblTabla.setModel(modelo);
